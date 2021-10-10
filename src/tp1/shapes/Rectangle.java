@@ -1,14 +1,22 @@
 package tp1.shapes;
 
-public class Rectangle {
-    //attributes
+public class Rectangle implements shape {
+    int h;
+    int l;
+
+    Rectangle(int hf, int lf){
+        h=hf;
+        l=lf;
+    }
 
     //methods
     public void perimeter(){
-        System.out.println("Perimeter : ");
+        int p=(h+l)*2;
+        System.out.println("Perimeter : "+p);
     }
 
     public void surface(){
-        System.out.println("Perimeter : ");
+        int s=l*h;
+        System.out.println("Perimeter : "+s);
     }
 }
