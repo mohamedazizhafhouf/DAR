@@ -17,6 +17,6 @@ public class Rectangle implements shape {
 
     public void surface(){
         int s=l*h;
-        System.out.println("Perimeter : "+s);
+        System.out.println("Surface : "+s);
     }
 }
