@@ -19,6 +19,6 @@ public class Triangle implements shape {
 
     public void surface(){
         int s=(b*h)/2;
-        System.out.println("Perimeter : "+s);
+        System.out.println("Surface : "+s);
     }
 }
